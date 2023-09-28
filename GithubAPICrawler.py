@@ -8,7 +8,7 @@ import seaborn as sns
 sns.set_theme()
 
 
-personal_token = "USE YOUR OWN TOKEN"
+personal_token = "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"
 token = os.getenv('GITHUB_TOKEN', personal_token)
 headers = {'Authorization': f'token {token}'}
 
